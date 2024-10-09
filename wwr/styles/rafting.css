@@ -3,9 +3,11 @@
     --color2: #f79ad3;
     --color3: #84c6bf;
     --color4: #747778;
-    font-family: roboto, libre baskerville;
 
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 header{
     left: 20px;
@@ -77,7 +79,7 @@ h3 {
 main {
     max-width: 800px;
 	margin: 2rem auto;
-	font-family: Roboto, libre baskerville;
+	font-family: 'Roboto', libre baskerville;
 }
 
 footer {
