@@ -35,7 +35,7 @@ nav a {
     left: 210px;
     color: var(--color1);
     font-size: 36px; 
-    background-color: var(--color4);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
   }
   
@@ -45,7 +45,7 @@ nav a {
     right: 5%;
     left: 5%;
     color: white;
-    background-color: var(--color4); 
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 10px;
     max-width: 400%; 
   }
