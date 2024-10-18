@@ -3,12 +3,53 @@
     --color2: #f79ad3;
     --color3: #84c6bf;
     --color4: #747778;
-    font-family: 'Roboto', Libre Baskerville;
+    --font-family: 'Roboto', Libre Baskerville;
 }
 
 header{
-    left: 20px;
-    text-align: center;
+  margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64 px;
+	height: auto;
+}
+
+h1 {
+	font-size: 2rem;
+	font-family: var(--font-family);
+}
+
+nav {
+	text-align: right;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: var(--color1);
+	padding: 50px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: var(--color3);
+	font-weight: 700;
+	text-decoration: underline;
 }
 
 nav a {
@@ -66,13 +107,51 @@ nav a {
 
 h2 {
     font-size: 30px;
+    text-align: center;
     color: var(--color1);
 }
 
-h3 {
-    color: var(--color1);
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  align-items: center;
+  width: 18%;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;  
+    
 }
-  
+
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+}
+
+.river {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 100%;
+}
+
+.river img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px 10px 0 0;
+ 
+}
+
+
 main {
     max-width: 800px;
 	margin: 2rem auto;
@@ -80,7 +159,32 @@ main {
 }
 
 footer {
-    margin-top: 15px;
-    border-top: 1px;
-    text-align: center;
+  width: 50%;
+  height: 7px;
+  position: fixed;
+  bottom: 0;
+  background-color: #333;
+  color: #fff;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+ 
+  
+
 }
+
+
+.sociallinks {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.sociallinks img {
+  width: 24px;
+  height: 24px;
+  margin-left: 1px;
+}
+
