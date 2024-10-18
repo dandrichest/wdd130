@@ -6,6 +6,14 @@
     --font-family: 'Roboto', Libre Baskerville;
 }
 
+body {
+  font-family: 'Roboto', sans-serif; 
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif; 
+}
+
 header{
   margin: 1rem auto;
 	display: grid;
@@ -171,8 +179,6 @@ footer {
   align-items: center;
   padding: 10px;
  
-  
-
 }
 
 
