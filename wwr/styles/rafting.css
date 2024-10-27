@@ -13,7 +13,21 @@
   font-display : swap;
   src : url(https://fonts.gstatic.com/s/librebaskerville/v14/kmKnZrc3Hgbbcjq75U4uslyuy4kn0pNe.ttf) format('truetype');
   }
-
+@font-face {
+    font-family : 'Roboto';
+    font-style : normal;
+    font-weight : 400;
+    font-display : swap;
+    src : url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+    }
+@font-face {
+    font-family : 'Roboto';
+    font-style : normal;
+    font-weight : 500;
+    font-display : swap;
+    src : url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
+    }
+    
 
 header{
   margin: 1rem auto;
@@ -205,7 +219,7 @@ main h1 {
   display: grid;
 }
 
-.form-group label {
+.form-group label{
   display: block;
   margin-bottom: 5px;
 }
@@ -215,6 +229,17 @@ main h1 {
 .form-group select {
   padding: 0.5rem;
   font-size: 1.1rem;
+}
+
+.form-group2 {
+  padding: 3px 6px;
+  width: 650px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+ 
 }
 
 fieldset {
@@ -236,9 +261,12 @@ input[type="checkbox"] {
   vertical-align: bottom;
 }
 
+input[type="radio"] {
+  margin: 0.4rem;
+}
 
 button {
-  background-color: #333;
+  background-color: var(--color2);
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -247,7 +275,7 @@ button {
 }
 
 button:hover {
-  background-color: #555;
+  background-color: var(--color4);
 }
 
 .contact-info {
