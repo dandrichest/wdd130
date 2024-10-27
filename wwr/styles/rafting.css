@@ -5,28 +5,6 @@
     --color4: #747778;
     --font-family: 'Roboto', Libre Baskerville;
 }
-
-@font-face {
-  font-family : 'Libre Baskerville';
-  font-style : normal;
-  font-weight : 400;
-  font-display : swap;
-  src : url(https://fonts.gstatic.com/s/librebaskerville/v14/kmKnZrc3Hgbbcjq75U4uslyuy4kn0pNe.ttf) format('truetype');
-  }
-@font-face {
-    font-family : 'Roboto';
-    font-style : normal;
-    font-weight : 400;
-    font-display : swap;
-    src : url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
-    }
-@font-face {
-    font-family : 'Roboto';
-    font-style : normal;
-    font-weight : 500;
-    font-display : swap;
-    src : url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
-    }
     
 
 header{
@@ -342,3 +320,24 @@ footer {
   margin-left: 1px;
 }
 
+@font-face {
+  font-family : 'Libre Baskerville';
+  font-style : normal;
+  font-weight : 400;
+  font-display : swap;
+  src : url(https://fonts.gstatic.com/s/librebaskerville/v14/kmKnZrc3Hgbbcjq75U4uslyuy4kn0pNe.ttf) format('truetype');
+  }
+@font-face {
+    font-family : 'Roboto';
+    font-style : normal;
+    font-weight : 400;
+    font-display : swap;
+    src : url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+    }
+@font-face {
+    font-family : 'Roboto';
+    font-style : normal;
+    font-weight : 500;
+    font-display : swap;
+    src : url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
+    }
