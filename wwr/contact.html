@@ -41,65 +41,74 @@
       </nav>
     </header>
     <main>
-      <!-- Contact Page Container -->
+      <h1>Contact Us</h1>
+         <!-- Contact Page Container -->
     <div class="contact-container">
       <!-- Contact Form -->
       <form id="contact-form">
-          <!-- Name Input -->
-          <div class="form-group">
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" required>
-          </div>
-
-          <!-- Email Input -->
-          <div class="form-group">
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required>
-          </div>
-
-          <!-- Phone Number Input -->
-          <div class="form-group">
-              <label for="phone">Phone:</label>
-              <input type="tel" id="phone" name="phone">
-          </div>
-
-          <!-- Message Input -->
-          <div class="form-group">
-              <label for="message">Message:</label>
-              <textarea id="message" name="message" required></textarea>
-          </div>
-
-          <!-- Submit Button -->
-          <button type="submit">Send Message</button>
+          <fieldset>
+              <legend>Contact Information</legend>
+              <div class="form-group">
+                  <label for="fullname">Full Name:</label>
+                  <input type="text" id="fullname" name="fullname" required>
+              </div>
+              <div class="form-group">
+                  <label for="useremail">Email:</label>
+                  <input type="email" id="useremail" name="useremail" required>
+              </div>
+          </fieldset>
+          <fieldset>
+              <legend>Question</legend>
+              <div class="form-group">
+                  <label for="browser">What is your favourite Whitewater rafts?</label>
+                  <select name="browser" id="browser">
+                      <option value="chrome">Paddle Boats</option>
+                      <option value="firefox">Gear Boats</option>
+                      <option value="safari">paddle combination rafts</option>
+                      <option value="edge">Oar Boat</option>
+                      <option value="brave">Catarafts</option>
+                      <option value="others">Others</option>
+                  </select>
+              </div>
+              <div class="form-group">
+                  <label for="pet">Are you comfortable on water?</label>
+                  <input type="checkbox" id="pet" name="pet">
+              </div>
+              <div class="form-group">
+                  <label for="feedback">List the places you have lived</label>
+                  <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam, Netherlands, Timbuktu Mali"></textarea>
+              </div>
+          </fieldset>
+          <button type="submit">Submit Poll</button>
       </form>
 
       <!-- Contact Information -->
       <div class="contact-info">
           <h2>Contact Information</h2>
-          <p>Address: 123 Main St, Anytown, USA 12345</p>
+          <p>Address: 123 Main St, White Plains, NY 10601, USA</p>
           <p>Phone: 555-555-5555</p>
-          <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+          <p>Email: <a href="mailto:info@waterrafting.com">info@waterrafting.com</a></p>
       </div>
       <!-- Employee Profiles -->
       <div class="employee-profiles">
         <figure>
-            <img src="employee1_url" alt="Employee 1">
-            <figcaption>Employee 1 - Position</figcaption>
+            <img src="images/Employee 1.jpeg" alt="Employee 1">
+            <figcaption>Blessing - HR</figcaption>
         </figure>
         <figure>
-            <img src="employee2_url" alt="Employee 2">
-            <figcaption>Employee 2 - Position</figcaption>
+            <img src="images/Employee 2.jpeg" alt="Employee 2">
+            <figcaption>Happy Staffs</figcaption>
         </figure>
         <figure>
-            <img src="employee3_url" alt="Employee 3">
-            <figcaption>Employee 3 - Position</figcaption>
+            <img src="images/Employee 3.jpeg" alt="Employee 3">
+            <figcaption>Anita - CR</figcaption>
         </figure>
       </div>
 
 
       <!-- Map Container -->
       <div class="map-container">
-          <iframe src="(link unavailable)?" frameborder="0" allowfullscreen></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.6538911778266!2d-73.77196452511551!3d41.032827517914626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c294364ee03c35%3A0x3db557fc1364d63c!2s123%20Main%20St%2C%20White%20Plains%2C%20NY%2010601%2C%20USA!5e0!3m2!1sen!2sng!4v1730040740538!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
   
     </main>

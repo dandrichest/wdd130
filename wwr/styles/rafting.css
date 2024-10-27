@@ -159,42 +159,42 @@ main {
 	font-family: 'Roboto', libre baskerville;
 }
 
-footer {
-  width: 50%;
-  height: 7px;
-  position: fixed;
-  bottom: 0;
-  background-color: #333;
-  color: #fff;
-  align-content: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
- 
-}
 
-
-.sociallinks {
-  display: inline-flex;
-  align-items: center;
-  margin-left: 10px;
-}
-
-.sociallinks img {
-  width: 24px;
-  height: 24px;
-  margin-left: 1px;
-}
 
 /* Contact Page */
+
+body {
+  font-family: Georgia, Times, serif;
+  font-size: 1.2em;
+  color: #333;
+  background: #fff;
+}
+
+main h1 {
+  margin: 0 auto;
+  width: 650px;
+  margin: 1rem;
+  font-size: 1.5em;
+  color: var(--color1);
+  text-align: center;
+}
+
+
+
 .contact-container {
   font-family: 'Roboto', sans-serif;
   padding: 20px;
 }
 
 .form-group {
-  margin-bottom: 15px;
+  
+  width: 650px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: grid;
 }
 
 .form-group label {
@@ -203,12 +203,31 @@ footer {
 }
 
 .form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+.form-group textarea,
+.form-group select {
+  padding: 0.5rem;
+  font-size: 1.1rem;
 }
+
+fieldset {
+  display: grid;
+  grid-gap: 0.5rem;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+legend {
+  padding: 0.5rem;
+  color: navy;
+  font-size: 1.3rem;
+}
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
 
 button {
   background-color: #333;
@@ -249,12 +268,42 @@ button:hover {
 }
 
 .employee-profiles img {
-  width: 150px;
+  width: 250px;
   height: auto;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .employee-profiles figcaption {
   margin-top: 10px;
   font-family: 'Roboto', sans-serif;
 }
+
+/* Footer */
+footer {
+  width: 50%;
+  height: 7px;
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  padding: 10px;
+}
+
+.sociallinks {
+  display: inline-flex;
+  display: flex;
+  justify-content:center;
+  margin-left: 10px;
+}
+
+
+.sociallinks img {
+  width: 24px;
+  height: 24px;
+  margin-left: 1px;
+}
+
