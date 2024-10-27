@@ -187,3 +187,74 @@ footer {
   margin-left: 1px;
 }
 
+/* Contact Page */
+.contact-container {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info h2 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.map-container {
+  margin-top: 20px;
+}
+
+/* Employee Profiles */
+.employee-profiles {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.employee-profiles figure {
+  text-align: center;
+  margin: 10px;
+}
+
+.employee-profiles img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.employee-profiles figcaption {
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}
