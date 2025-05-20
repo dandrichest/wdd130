@@ -219,11 +219,8 @@ footer {
   margin-left: 1px;
 }
 
-.trip-image {
-  width: 100px;
-  height: 70px;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.sociallinks a {
+  color: var(--color1);
+  text-decoration: none;
+  margin: 0 5px;
 }
-
