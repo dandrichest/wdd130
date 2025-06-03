@@ -1,5 +1,5 @@
 :root {
-  --color1: #e965c1;
+  --color1: #9e0570;
   --color2: #f79ad3;
   --color3: #84c6bf;
   --color4: #747778;
@@ -284,10 +284,11 @@ input[type="radio"] {
 }
 
 button {
-  background-color: var(--color2);
+  background-color: var(--color1);
   color: #fff;
   padding: 10px 20px;
   border: none;
+  font-size: 1.2rem;
   border-radius: 5px;
   cursor: pointer;
 }
