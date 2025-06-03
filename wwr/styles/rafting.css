@@ -6,6 +6,16 @@
   --font-family: 'Roboto', Libre Baskerville;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: var(--font-family);
+  background-color: #fff;
+  color: #333;
+}
 
 header{
   margin: 1rem auto;
@@ -27,7 +37,6 @@ header{
 
 h1 {
 	font-size: 2rem;
-	font-family: var(--font-family);
   color: var(--color1);
   text-align: center;
 }
@@ -237,7 +246,7 @@ input, textarea {
   margin-bottom: 20px;
   border: none;
   border-radius: 5px;
-  box-shadow: var(--color4)
+  box-shadow:rgba(0, 0, 0, 0.2);
 }
 
 .form-group2 {
