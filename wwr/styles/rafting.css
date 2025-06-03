@@ -246,7 +246,7 @@ input, textarea {
   margin-bottom: 20px;
   border: none;
   border-radius: 5px;
-  box-shadow:rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
 }
 
 .form-group2 {
