@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A common layout on the web for water rafting"
+    />
+    <meta name="author" content="Daniel Oyeniyi" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+
+    <title>About Us - White Water Rafting</title>
+  </head>
+
+  <body>
+    <header>
+      <img
+        src="images/rafting-momentum.jpg"
+        alt="rafting momentum"
+        width="100"
+      />
+      <nav>
+        <ul class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="trips.html">Trips</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Contact Us</h1>
+      <!-- Contact Page Container -->
+      <div class="contact-us">
+        <!-- Contact Form -->
+        <form id="contact-form">
+          <fieldset>
+            <legend>Contact Information</legend>
+            <div class="form-group">
+              <label for="fullname">Full Name:</label>
+              <input type="text" id="fullname" name="fullname" required />
+            </div>
+            <div class="form-group">
+              <label for="useremail">Email:</label>
+              <input type="email" id="useremail" name="useremail" required />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Question</legend>
+            <div class="form-group">
+              <label for="favorite"
+                >What is your favourite Whitewater rafts?</label
+              >
+              <select name="favorite" id="favorite">
+                <option value="" disabled selected>Select your option</option>
+                <option value="chrome">Paddle Boats</option>
+                <option value="firefox">Gear Boats</option>
+                <option value="safari">paddle combination rafts</option>
+                <option value="edge">Oar Boat</option>
+                <option value="brave">Catarafts</option>
+                <option value="others">Others</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="rafting">Are you comfortable on water?</label>
+              <input type="checkbox" id="rafting" name="rafting" />
+            </div>
+            <div class="form-group2">
+              <label>Choose your favorite rafter</label><br />
+              <input type="radio" id="charles" name="rafter" value="C" />
+              <label for="charles">Charles</label><br />
+
+              <input type="radio" id="glens" name="rafter" value="G" />
+              <label for="glens">Glens</label><br />
+
+              <input type="radio" id="hmos" name="rafter" value="H" />
+              <label for="hmos">Hmos</label>
+            </div>
+            <div class="form-group">
+              <label for="feedback">List the places you have lived</label>
+              <textarea
+                id="feedback"
+                name="feedback"
+                rows="4"
+                placeholder="Stillwater Florida, Amsterdam, Netherlands, Timbuktu Mali"
+              ></textarea>
+            </div>
+          </fieldset>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <!-- Contact Information -->
+      <div class="contact-info">
+        <h2>Contact Information</h2>
+        <p>Address: 123 Main St, White Plains, NY 10601, USA</p>
+        <p>Phone: 555-555-5555</p>
+        <p>
+          Email:
+          <a href="mailto:info@waterrafting.com">info@waterrafting.com</a>
+        </p>
+      </div>
+      <!-- Employee Profiles -->
+      <div class="employee-profiles">
+        <figure>
+          <img src="images/Employee1.jpeg" alt="Employee 1" />
+          <figcaption>Blessing - HR</figcaption>
+        </figure>
+        <figure>
+          <img src="images/Employee2.jpeg" alt="Employee 2" />
+          <figcaption>Happy Staffs</figcaption>
+        </figure>
+        <figure>
+          <img src="images/Employee3.jpeg" alt="Employee 3" />
+          <figcaption>Anita - CR</figcaption>
+        </figure>
+      </div>
+
+      <!-- Map Container -->
+      <div class="map-address">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.6538911778266!2d-73.77196452511551!3d41.032827517914626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c294364ee03c35%3A0x3db557fc1364d63c!2s123%20Main%20St%2C%20White%20Plains%2C%20NY%2010601%2C%20USA!5e0!3m2!1sen!2sng!4v1730040740538!5m2!1sen!2sng"
+          width="600"
+          height="450"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </main>
+    <footer>
+      <p>©2024 ⭐ White Water Rafting ⭐ Daniel Oyeniyi</p>
+      <nav class="sociallinks">
+        <a href="https://web.facebook.com/">
+          <img src="images/Facebook.jpg" alt="Facebook" />
+        </a>
+        <a href="https://x.com/">
+          <img src="images/twitter-64.jpg" alt="Twitter" />
+        </a>
+        <a href="https://www.instagram.com/">
+          <img src="images/instagram-64.jpg" alt="instagram" />
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>
