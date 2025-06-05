@@ -225,38 +225,38 @@ form {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
   background-color: #eee;
-  display: grid;
+  display: block;
 }
 
-.form-group label{
-  display: block;
-  margin-bottom: 5px;
-}
+
 
 .form-group input,
 .form-group textarea,
 .form-group select {
   padding: 0.5rem;
   font-size: 1.1rem;
+  display: inline-block;
 }
 
-input, textarea {
+textarea {
   width: 100%;
   padding: 10px;
-  margin-bottom: 20px;
+ 
   border: none;
   border-radius: 5px;
-  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
+  box-shadow: 1px rgb(0, 0, 0, 0.2);
 }
 
 .form-group2 {
-  padding: 3px 6px;
   width: 650px;
   margin: 0 auto;
   padding: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
   background-color: #eee;
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
  
 }
 
@@ -274,13 +274,25 @@ legend {
   font-size: 1.3rem;
 }
 input[type="checkbox"] {
-  width: 22px;
-  height: 22px;
-  vertical-align: bottom;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
 }
 
 input[type="radio"] {
   margin: 0.4rem;
+  align-items: center;
+  display: inline-block;
+  width: 20px;
+}
+
+input[type="text"],
+input[type="email"]{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: var(--color4);
 }
 
 button {
@@ -291,6 +303,12 @@ button {
   font-size: 1.2rem;
   border-radius: 5px;
   cursor: pointer;
+  align-items: center;
+}
+
+button[type="submit"] {
+  width: 150px; /* Adjust to your desired size */
+  margin: 20px auto;
 }
 
 button:hover {
@@ -324,7 +342,7 @@ button:hover {
 }
 
 .employee-profiles img {
-  width: 250px;
+  width: 200px;
   height: auto;
   border-radius: 10%;
 }
