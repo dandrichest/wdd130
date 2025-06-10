@@ -293,15 +293,36 @@ input[type="email"]{
   border-radius: 5px;
 }
 
+.button {
+  display: inline-block;
+  background-color: var(--color1);
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button[type="submit"] {
+  width: 150px; /* Adjust to your desired size */
+  margin: 20px auto;
+}
+
+.button:hover {
+  background-color: var(--color4);
+}
+
 button {
   background-color: var(--color1);
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 16px;
   border-radius: 5px;
+  text-align: center;
   cursor: pointer;
-  align-items: center;
 }
 
 button[type="submit"] {
@@ -312,6 +333,7 @@ button[type="submit"] {
 button:hover {
   background-color: var(--color4);
 }
+
 
 .contact-info {
   margin-top: 20px;
