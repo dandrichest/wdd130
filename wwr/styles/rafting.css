@@ -93,7 +93,7 @@ nav a {
   
   right: 5%;
   left: 5%;
-  color: var(--color1);
+  color: #f7f7f7;
   font-size: 36px; 
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
@@ -195,12 +195,12 @@ margin: 2rem auto;
 font-family: 'Roboto', libre baskerville;
 }
 
-/* Contact Page */
-#contact {
+
+#contact, #about {
   padding: 2em;
 }
 
-
+/* Contact Page */
 
 form {
   width: 800px;
@@ -348,6 +348,89 @@ button:hover {
 .employee-profiles figcaption {
   margin-top: 10px;
   font-family: 'Roboto', sans-serif;
+}
+
+/* trip card on Home */
+.trip-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.trip-card {
+  background-color: #f7f7f7;
+  padding: 1em;
+  margin: 1em;
+  width: 30%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#trip-details {
+  padding: 2em;
+}
+
+#trips {
+  padding: 2em;
+}
+
+/* Trip Cards */
+.trip-cardd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+  gap: 20px;
+}
+
+.trip-cardd img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+.trip-content {
+  flex: 1;
+  text-align: left;
+}
+
+.trip-content button {
+  display: block;
+  margin-top: 10px;
+}
+
+
+h2 {
+  color: #333;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  background-color: var(--color1);
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+td {
+  background-color: #fff;
 }
 
 
