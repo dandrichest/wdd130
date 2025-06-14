@@ -373,73 +373,73 @@ button:hover {
 }
 
 /* trip card on Home */
+#trips {
+  text-align: center;
+  padding: 40px;
+}
+
 .trip-cards {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
   justify-content: center;
 }
 
 .trip-card {
-  background-color: #f7f7f7;
-  padding: 1em;
-  margin: 1em;
-  width: 30%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-
-
-#trip-details {
-  padding: 2em;
-}
-
-#trips {
-  padding: 2em;
-}
-
-/* Trip Cards */
-.trip-cardd {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: white;
+  background-color: #f9f9f9;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  max-width: 800px;
-  margin: 20px auto;
-  gap: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
-.trip-cardd img {
-  width: 200px;
+.trip-card img {
+  width: 100%;
+  height: auto;
   border-radius: 5px;
 }
 
-.trip-content {
-  flex: 1;
-  text-align: left;
+
+
+/* Ensures trip section uses grid layout */
+.trip-cardds {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-template-rows: repeat(2, auto); /* Two rows */
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
 }
 
-.trip-content button {
-  display: block;
-  margin-top: 10px;
+/* Styling for individual trip cards */
+.trip-cardd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
-
-h2 {
-  color: #333;
+/* Adjusts images for consistency */
+.trip-cardd img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
+/* Styling for trip details table */
 table {
-  width: 80%;
-  margin: 20px auto;
+  width: 100%;
   border-collapse: collapse;
 }
 
 th, td {
-  border: 1px solid #ddd;
   padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
 }
 
 th {
@@ -447,12 +447,13 @@ th {
   color: white;
 }
 
-tr:nth-child(even) {
-  background-color: #f9f9f9;
+td {
+  background-color: white;
 }
 
-td {
-  background-color: #fff;
+
+h2 {
+  color: #333;
 }
 
 
